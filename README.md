@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# ShopCart (An Ecommerce WebApp)
+This is an e-commerce website named ShopCart  developed using React. ShopCart replicates a real Ecommerce website having different electronic products like Earbuds, Smartwatches, Speakers. This Website is SPA(Single Page Application) comes up with essential features like Home Page, Product listing, Search Button, Add to Cart option, cart Management and checkout.
+This showcases Aniket's capablities like Coding, UI design, logical thinking, user interaction, and critical problem-solving.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tech Stack
++ **React** (Used this Javascript library to create an responsive, visually appealing ecommerce website)
++ **JavaScript**  (Used Vanilla JS to write different business logics)
++ **SCSS**  (Used this CSS library to give style making the ShopCart more attractive)
++ **Strapi** (Strapi is a headless CMS to create different APIs)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Features/Functionalities
++ Home Page
++ Products Listing
++ Shopping Cart
++ Categories Section
++ Search Button
++ Checkout
++ Responsive Design
+  + Compatible with multiple screen sizes (Phones & Desktops)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demonstration
 
-### `npm test`
+This wesbiste is deployed on Netlify [View here](https://fancy-marzipan-68e3d0.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Here are screenshots that show the ShopCart application in use.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Home Page**
+![LandingPage1](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/66c53282-5210-465e-a3cb-7f8d81f7f8e0)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**Categories Section**
+> Consists of 4 Categories of Products (On clicking you can jump to particular category of products) 
+![image](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/49fdf49f-f1b7-42de-8a12-5da2d63de711)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+>> HeadPhones
+>> ![Category Section1](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/b8e67744-c31b-46e7-8233-99eee97e40c8)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+>> Wireless Earbuds
+>>![CategoryEarbuds](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/95007787-10e9-4dcc-9df1-3a882a78c7cb)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+>> Bluetooth Speakers
+>> ![CategoryBtSpeaker](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/be921424-44a4-4b7d-b2e2-9b699a718e8c)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+>> SmartWatches
+>> ![CategorySmartWatch](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/8330a43b-459b-4587-b3de-d5ccf5b35d00)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Popular Products Section**
+![image](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/f358d338-0f2d-4061-90b3-1e975fef6dce)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Footer**
+![image](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/2c8ce430-a58c-49d2-8af7-a785448aff37)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Search Functionality**
 
-### Making a Progressive Web App
+![Search Functionality1](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/7dc1f1cd-b5e7-4f90-8257-751523283edb)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Type to Search Items**
+>We can search our desired item by typing...
 
-### Advanced Configuration
+![Search Functionality2 type](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/e9a1ff90-849f-4d57-8ed7-43ed6509bdb3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Tap on the Search result**
+> By Clicking on the search results we can go to the desired product page
+![Search Functionalitytap2go](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/b9785418-2766-45e8-b4d9-69aedec6bb2a)
 
-### Deployment
+---
+**Add to Cart**
+![Add2Cart2](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/9689cfab-8b55-4012-8f88-7b3482636b23)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+**Cart Items**
+> We can add multiple items and increase/decrease the quantity
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![CartBucket](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/d58563cb-c3ab-4830-a8d5-adba19bc1b86)
+
+**Check out Button**
+> Displays the SubTotal Amount to be paid
+
+
+![CheckOutBtn](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/54c43774-060f-4ce2-8959-3520c3a0a378)
+
+---
+
+**Purchase Successful message**
+
+![image](https://github.com/oye-ani/totalitycorp-frontend-challenge/assets/86822973/d4e96af0-8583-4252-9732-00d31b350461)
+
+
+
+
+
+
+
+
